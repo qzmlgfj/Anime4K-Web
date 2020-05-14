@@ -1,2 +1,3 @@
 # Anime4K-Web
-An implement of Anime4K
+
+An brief Web form of Anime4K

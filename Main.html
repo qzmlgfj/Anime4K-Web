@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="cn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime4K</title>
+    <script src="./src/vue.js"></script>
+    <script src="./src/app.js"></script>
+    <link rel="stylesheet" href="./src/animate.css">
+    <link rel="stylesheet" href="./src/style.css">
+
+</head>
+
+<body style="margin: 0px; background-attachment: fixed; background-color: rgb(73, 92, 105);">
+    <div id="app" style="width: auto; height: auto;">
+
+        <headling></headling>
+
+    </div>
+
+    <script>
+        new Vue({
+            el: "#app",
+            components: {
+                'headling': Title
+            }
+        })
+    </script>
+
+</body>
+
+</html>
