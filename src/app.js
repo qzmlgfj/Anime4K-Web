@@ -17,7 +17,7 @@ var Title = {
             this.shakingTimes = this.shakingTimes + 1;
 
             if (this.shakingTimes >= 10) {
-                window.alert("我晕啦！！！");
+                window.alert("I'm dizzy!!!");
                 this.shakingTimes = 0;
             }
         },
